@@ -14,14 +14,18 @@ body {
     display                 : flex;
     flex-direction          : column;
     row-gap                 : 15px;
+    width: 310px;
 }
 
 .live-update-css {
     font-family             : Arial, Helvetica, sans-serif;
-    font-size               : 50px;
+    font-size               : 4git0px;
     color                   : white;
     text-align              : end;
     height                  : 60px;
+    text-overflow           : ellipsis;
+    white-space             : nowrap;
+    overflow: hidden;
 }
 
 .calculator-container > div {
